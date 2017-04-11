@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             //your code here
+            Toast.makeText(MainActivity.this, "Hello toast", Toast.LENGTH_SHORT).show();
         }
     };
 
